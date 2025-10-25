@@ -59,7 +59,6 @@ cp .env.example .env
   - Kakao Developers에서 발급 가능 (JavaScript Key)
 - `VITE_SERVER_URL`
   - 방명록과 참석 의사 전달 등을 위한 서버의 URL
-  - 서버 소스코드: https://github.com/juhonamnam/wedding-invitation-server
   - 설정하지 않을 경우 소스코드상에 고정된 방명록만 보여줍니다.
     - 결혼식 끝난 이후 archive 용으로 사용 가능합니다. 지금까지 올라왔던 모든 방명록을 `offlineGuestBook.json`에 소스코드로 저장하여 read only로 보관해보세요.
 - `VITE_STATIC_ONLY`
